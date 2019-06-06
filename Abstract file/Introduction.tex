@@ -1,15 +1,22 @@
 
 
 \section{Introduction}
-With the advent of open source components since 1990's there is an ever increasing number of open source libraries which is used either as a part of open source or closed source softwares and developers mostly rely on thirdparty components instead of writing a new one.
+With the advent of open source components since 1990's there is an ever increasing number of open source libraries which is used either as a part of open source or closed source softwares and developers mostly rely on third-party components instead of writing a new one.
 When a developer depends on another components there is an expectation of change and improvement from the user side. This means software contributors should have social interactions with each other to communicate their issues and solve the problem which is very common in open source communities. Millions of comments and issues on Github is a clear sign of this claim.
 
 On the other side these social interaction of contributors may contain very many beneficial information but little is known about them. We use social interaction to human action related to use of third party software packages in application development process. Studying the way and pattern of communication and behaviour of contributors of software packages can help us to create a profile for each contributor which includes a lot of information about them and based on that we can make important decisions in development process. In fact a developer can decide to depend on a package according to behaviour of the contributors or stop using it after a while because of that. We can consider commenting activity of contributor of some package as a source of information to estimate the consistency of the package we are going to start using it. 
 
-Several studies have been proposed about social aspects of software ecosystems for example how developer teams interact and evolve \cite{lopezfernandez2006:sna}, how newcomers progress in a software project \cite{Zhou2011-ICSE,Zhou2012-ICSE}, how the core team grows over time \cite{Robles2009MSR}, how developer teams get renewed \cite{Constantinou2017SANER}, and how socio-technical patterns affect software success or failure \cite{SurianTLCL13}.  Some study used Socio-technical metrics to define developer profiles and use them for specific recommendations \cite{Kintab:2014:RSE:2735522.2735526}, To reveal how bad social interaction practices can decrease software quality and team productivity \cite{Zanetti2013CHASE}. The notion of social debt has been used to evaluate the negative impact of community smells on industrial software \cite{Tamburri2015}. Team diversity factors have been shown to positively impact the team’s productivity \cite{Vasilescu2015CHI}. How social interaction occurs through issues and feature requests \cite{8049385}. In this research we proposed an imparical study on relationship between the dependencies between software packages and the contributors of those packages. It means we want to explore socio-technical aspect of software ecosystems. We considered 3 exploratory research question to find if there is some tendency or correlation between package dependency network and the  collaborator communication network:
+In my PhD research project, that started on 1 June 2019, I propose to empirically study the socio-technical relationship between software package dependencies and the interaction patterns of the contributors to those packages.
+To accomplish this, I will study how the socio-technical dependencies within open source software package managers evolve over time, and how this affects the health of the package dependency network.
+%In a first phase of my research, I will focus on all packages distributed through the Cargo package manager. This study will be extended in a later phase to other package managers (e.g. npm, PyPI, Maven, CRAN, and many others).
+I will focus on different types of social and technical contributor activity that can be extracted from GitHub repositories storing the development history of each package. In a first phase of my research, I will focus on commenting activity (i.e., adding or responding to comments through GitHub) and development activity (i.e., making commits to the git repository)\textbf{TOM: Do you also include pull request activity?}
 
-\begin{itemize}
-\item RQ1 Are contributors of comments more likely to contribute to packages they depend on  than other packages?
-\item RQ2 Is there some relation between the commenting activity and the decision to start depending on/contributing to a package?
-\item RQ3 is there some relation between the commenting activity and the decision to stop depending on/ contributing to a package?
-\end{itemize}
+To validate the hypothesis of socio-technical congruence at the scale of open source package dependency networks, and understand the impact of this phenomenon, I will study three exploratory research questions: 
+
+% to find if there is some tendency or correlation between package dependency network and the  collaborator communication network:
+\textbf{TOM: I have reformulated the RQs. TO BE DISCUSSED}
+\begin{description}
+\item[RQ1] How does the dependency network structure influence commenting activity? (E.g., are contributors more likely to be active in commenting on packages they depend on than on other packages?)
+\item[RQ2] Which factors related to commenting activity (e.g., frequency, duration, intensity) of a contributor to a specific package increase his likelihood to start or stop depending on this package?
+\item[RQ2] Which factors related to commenting activity (e.g., frequency, duration, intensity) of a contributor to a specific package increase his likelihood to start or stop development activity for this package?
+\end{description}
