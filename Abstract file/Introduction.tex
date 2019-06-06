@@ -1,22 +1,25 @@
 
 
 \section{Introduction}
-With the advent of open source components since 1990's there is an ever increasing number of open source libraries which is used either as a part of open source or closed source softwares and developers mostly rely on third-party components instead of writing a new one.
-When a developer depends on another components there is an expectation of change and improvement from the user side. This means software contributors should have social interactions with each other to communicate their issues and solve the problem which is very common in open source communities. Millions of comments and issues on Github is a clear sign of this claim.
 
-On the other side these social interaction of contributors may contain very many beneficial information but little is known about them. We use social interaction to human action related to use of third party software packages in application development process. Studying the way and pattern of communication and behaviour of contributors of software packages can help us to create a profile for each contributor which includes a lot of information about them and based on that we can make important decisions in development process. In fact a developer can decide to depend on a package according to behaviour of the contributors or stop using it after a while because of that. We can consider commenting activity of contributor of some package as a source of information to estimate the consistency of the package we are going to start using it. 
+Today's software development is increasingly relying on software package libraries distributed through open source software package managers (such as Cargo, npm, Maven, CRAN and many more). Rather than writing software from scratch, developers often choose to depend on existing software packages.
+At the same time, collaborative online development platforms like GitHub make software development an inherently social phenomenon \cite{DabbishSTH12,Mens2019IEEESW}.
+
+The internal structure of a software package manager can be considered as a kind of \emph{socio-technical} dependency network. Packages depend on other packages that are required for installing and deploying them. Software developers are \emph{technically} contributing to these packages (e.g., by making commits, pull requests or issue requests to the package's git repository). Software developers are also \emph{socially} active (e.g., by commenting through GitHub on the development activities of packages).
+The phenomenon of socio-technical congruence (a.k.a. Conway's law) \cite{Conway1968, Herbsleb1999} assumes a tight connection between the package dependency network structure and the communication structure of its community of contributors. There is, however, very little research studying such socio-technical congruence at the ecosystem level \cite{Palyart2018TSE}, or how the socio-technical congruence evolves over time \cite{Cataldo2008}.
 
 In my PhD research project, that started on 1 June 2019, I propose to empirically study the socio-technical relationship between software package dependencies and the interaction patterns of the contributors to those packages.
-To accomplish this, I will study how the socio-technical dependencies within open source software package managers evolve over time, and how this affects the health of the package dependency network.
-%In a first phase of my research, I will focus on all packages distributed through the Cargo package manager. This study will be extended in a later phase to other package managers (e.g. npm, PyPI, Maven, CRAN, and many others).
-I will focus on different types of social and technical contributor activity that can be extracted from GitHub repositories storing the development history of each package. In a first phase of my research, I will focus on commenting activity (i.e., adding or responding to comments through GitHub) and development activity (i.e., making commits to the git repository)\textbf{TOM: Do you also include pull request activity?}
+As such, I aim to gain a better understanding of how the socio-technical congruence within open source software package managers evolves over time, and how this affects the health of the package dependency network.
 
-To validate the hypothesis of socio-technical congruence at the scale of open source package dependency networks, and understand the impact of this phenomenon, I will study three exploratory research questions: 
+In a first phase of my research, I will focus on packages distributed through the Cargo package manager and developed through git and GitHub. This study will be extended in a later phase to other package managers (e.g. npm, PyPI, Maven, CRAN, and many others).
+I will focus on different types of \emph{technical} development activity (e.g., commits, pull requests and issue requests through git and GitHub) and \emph{social} communication activity (e.g. commit comments, pull request comments and issue comments through GitHub). 
 
+To validate the socio-technical congruence hypothesis at the level of package dependency networks of open source software package managers, I will study three exploratory research questions: 
 % to find if there is some tendency or correlation between package dependency network and the  collaborator communication network:
-\textbf{TOM: I have reformulated the RQs. TO BE DISCUSSED}
 \begin{description}
-\item[RQ1] How does the dependency network structure influence commenting activity? (E.g., are contributors more likely to be active in commenting on packages they depend on than on other packages?)
-\item[RQ2] Which factors related to commenting activity (e.g., frequency, duration, intensity) of a contributor to a specific package increase his likelihood to start or stop depending on this package?
-\item[RQ2] Which factors related to commenting activity (e.g., frequency, duration, intensity) of a contributor to a specific package increase his likelihood to start or stop development activity for this package?
+\item[RQ1] How does the dependency network structure influence social activity? (E.g., are contributors more likely to be active in commenting on packages they depend on than on other packages?)
+\item[RQ2] How does the social activity of a contributor to a specific package increase his likelihood to start depending on this package?
+\item[RQ3] How does the social activity of a contributor to a specific package increase his likelihood to start becoming technically active for this package?
 \end{description}
+
+More research questions will be explored in a later phase of my research, on the basis of the preliminary results obtained for these questions for the Cargo case study. 
