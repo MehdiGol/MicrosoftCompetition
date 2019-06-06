@@ -1,0 +1,11 @@
+\section{Methodology}
+
+We first selected Cargo package manager as an ecosystem in which we can access the interaction of package maintainers through github or other repositories and then we downloaded their information including their comment activities, commits, pull requests, and issues. It was a time consuming step because there were some restrictions from the Github website and also there were more than 1 milion interaction for almost 10000 packages inside this repostiory. We also gathered meta data about each package release such as its name, its release data, its version number, its maintainer, metadata about package dependencies: which version of which package depends on another package and with which version constraint from libraries.io dataset.
+
+Then we started to analyse and compare the package dependency network and the communication network of contributors of packages. Our aim was to find an answer for the 3 research question we mentioned in previous section. Intutively according to Conway’s law \cite{Conway1968} we guess if there is some technical dependency between software packages, it will be more likely that there is also a collaboration between package contributors (through commits, pull requests, and their associated comments).
+
+Based on this hypothesis we started to emparically analyse data regarding their package dependency and contributors activity and our findings was interesting and unique which we will discuss in findings section with more detail.
+
+In next section we have some new terminologies to talk about how packages and contributors linked to each other in a social or technical network. We use the term 'Dependency' Where a software component uses another package inside it and 'Reverse dependency' where a package is used as a required package in another software component.
+
+%\noindent \includegraphics[width=\textwidth]{historia-architecture.pdf} 

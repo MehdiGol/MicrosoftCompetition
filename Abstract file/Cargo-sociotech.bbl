@@ -1,0 +1,221 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\providecommand{\noopsort}[1]{}
+\begin{thebibliography}{12}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Constantinou and Mens}{Constantinou and
+  Mens}{2017}]%
+        {Constantinou2017SANER}
+\bibfield{author}{\bibinfo{person}{Eleni Constantinou} {and}
+  \bibinfo{person}{Tom Mens}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Socio-technical evolution of the {Ruby} ecosystem
+  in {GitHub}}. In \bibinfo{booktitle}{\emph{{IEEE} International Conference on
+  Software Analysis, Evolution and Reengineering ({SANER})}}.
+  \bibinfo{pages}{34--44}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/SANER.2017.7884607}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Conway}{Conway}{1968}]%
+        {Conway1968}
+\bibfield{author}{\bibinfo{person}{M. Conway}.}
+  \bibinfo{year}{1968}\natexlab{}.
+\newblock \showarticletitle{How do Committees Invent?}
+\newblock \bibinfo{journal}{\emph{Datamation Journal}} (\bibinfo{date}{April}
+  \bibinfo{year}{1968}), \bibinfo{pages}{28--31}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kintab, Roy, and McCalla}{Kintab
+  et~al\mbox{.}}{2014}]%
+        {Kintab:2014:RSE:2735522.2735526}
+\bibfield{author}{\bibinfo{person}{Ghadeer~A. Kintab},
+  \bibinfo{person}{Chanchal~K. Roy}, {and} \bibinfo{person}{Gordon~I.
+  McCalla}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Recommending Software Experts Using Code Similarity
+  and Social Heuristics}. In \bibinfo{booktitle}{\emph{Proceedings of 24th
+  Annual International Conference on Computer Science and Software
+  Engineering}} \emph{(\bibinfo{series}{CASCON '14})}. \bibinfo{publisher}{IBM
+  Corp.}, \bibinfo{address}{Riverton, NJ, USA}, \bibinfo{pages}{4--18}.
+\newblock
+\urldef\tempurl%
+\url{http://dl.acm.org/citation.cfm?id=2735522.2735526}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Lopez-Fernandez, Robles, Gonzalez-Barahona,
+  and Herraiz}{Lopez-Fernandez et~al\mbox{.}}{2009}]%
+        {lopezfernandez2006:sna}
+\bibfield{author}{\bibinfo{person}{Luis Lopez-Fernandez},
+  \bibinfo{person}{Gregorio Robles}, \bibinfo{person}{Jesus Gonzalez-Barahona},
+  {and} \bibinfo{person}{Israel Herraiz}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Applying Social Network Analysis Techniques to
+  Community-driven Libre Software Projects}.
+\newblock In \bibinfo{booktitle}{\emph{Integrated Approaches in Information
+  Technology and Web Engineering: Advancing Organizational Knowledge Sharing}}.
+  \bibinfo{publisher}{IGI Global}, Chapter~3, \bibinfo{pages}{28--50}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.4018/978-1-60566-418-7.ch003}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Palyart}, {Murphy}, and {Masrani}}{{Palyart}
+  et~al\mbox{.}}{2018}]%
+        {8049385}
+\bibfield{author}{\bibinfo{person}{M. {Palyart}}, \bibinfo{person}{G.~C.
+  {Murphy}}, {and} \bibinfo{person}{V. {Masrani}}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{A Study of Social Interactions in Open Source
+  Component Use}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Software Engineering}}
+  \bibinfo{volume}{44}, \bibinfo{number}{12} (\bibinfo{date}{Dec}
+  \bibinfo{year}{2018}), \bibinfo{pages}{1132--1145}.
+\newblock
+\showISSN{0098-5589}
+\urldef\tempurl%
+\url{https://doi.org/10.1109/TSE.2017.2756043}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Robles, Gonzalez-Barahona, and Herraiz}{Robles
+  et~al\mbox{.}}{2009}]%
+        {Robles2009MSR}
+\bibfield{author}{\bibinfo{person}{Gregorio Robles}, \bibinfo{person}{Jesus~M.
+  Gonzalez-Barahona}, {and} \bibinfo{person}{Israel Herraiz}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Evolution of the core team of developers in libre
+  software projects}. In \bibinfo{booktitle}{\emph{Int'l Conf. Mining Software
+  Repositories}}. \bibinfo{publisher}{IEEE Computer Society},
+  \bibinfo{pages}{167--170}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Surian, Tian, Lo, Cheng, and Lim}{Surian
+  et~al\mbox{.}}{2013}]%
+        {SurianTLCL13}
+\bibfield{author}{\bibinfo{person}{Didi Surian}, \bibinfo{person}{Yuan Tian},
+  \bibinfo{person}{David Lo}, \bibinfo{person}{Hong Cheng}, {and}
+  \bibinfo{person}{Ee-Peng Lim}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Predicting Project Outcome Leveraging
+  Socio-Technical Network Patterns}. In \bibinfo{booktitle}{\emph{European
+  Conf. Software Maintenance and Reengineering}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Tamburri, Kruchten, Lago, and {van
+  Vliet}}{Tamburri et~al\mbox{.}}{2015}]%
+        {Tamburri2015}
+\bibfield{author}{\bibinfo{person}{Damian~A. Tamburri},
+  \bibinfo{person}{Philippe Kruchten}, \bibinfo{person}{Patricia Lago}, {and}
+  \bibinfo{person}{Hans {van Vliet}}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Social debt in software engineering: insights from
+  industry}.
+\newblock \bibinfo{journal}{\emph{J. Internet Services and Applications}}
+  \bibinfo{volume}{6}, \bibinfo{number}{1} (\bibinfo{year}{2015}),
+  \bibinfo{pages}{1--17}.
+\newblock
+\showISSN{1869-0238}
+\urldef\tempurl%
+\url{https://doi.org/10.1186/s13174-015-0024-6}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Vasilescu, Posnett, Ray, van~den Brand,
+  Serebrenik, Devanbu, and Filkov}{Vasilescu et~al\mbox{.}}{2015}]%
+        {Vasilescu2015CHI}
+\bibfield{author}{\bibinfo{person}{Bogdan Vasilescu}, \bibinfo{person}{Daryl
+  Posnett}, \bibinfo{person}{Baishakhi Ray}, \bibinfo{person}{Mark G.~J.
+  van~den Brand}, \bibinfo{person}{Alexander Serebrenik},
+  \bibinfo{person}{Premkumar~T. Devanbu}, {and} \bibinfo{person}{Vladimir
+  Filkov}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Gender and Tenure Diversity in GitHub Teams}. In
+  \bibinfo{booktitle}{\emph{Int'l Conf. Human Factors in Computing Systems
+  ({CHI})}}. ACM, \bibinfo{pages}{3789--3798}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2702123.2702549}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Zanetti, Scholtes, Tessone, and
+  Schweitzer}{Zanetti et~al\mbox{.}}{2013}]%
+        {Zanetti2013CHASE}
+\bibfield{author}{\bibinfo{person}{M.~S. Zanetti}, \bibinfo{person}{I.
+  Scholtes}, \bibinfo{person}{C.~J. Tessone}, {and} \bibinfo{person}{F.
+  Schweitzer}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{The rise and fall of a central contributor:
+  Dynamics of social organization and performance in the {Gentoo} community}.
+  In \bibinfo{booktitle}{\emph{Int'l Workshop on Cooperative and Human Aspects
+  of Software Engineering}}. \bibinfo{pages}{49--56}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/CHASE.2013.6614731}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Zhou and Mockus}{Zhou and Mockus}{2011}]%
+        {Zhou2011-ICSE}
+\bibfield{author}{\bibinfo{person}{Minghui Zhou} {and} \bibinfo{person}{Audris
+  Mockus}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Does the initial environment impact the future of
+  developers?}. In \bibinfo{booktitle}{\emph{Int'l Conf. Software
+  Engineering}}. \bibinfo{publisher}{ACM}, \bibinfo{pages}{271--280}.
+\newblock
+\showISBNx{978-1-4503-0445-0}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/1985793.1985831}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Zhou and Mockus}{Zhou and Mockus}{2012}]%
+        {Zhou2012-ICSE}
+\bibfield{author}{\bibinfo{person}{Minghui Zhou} {and} \bibinfo{person}{Audris
+  Mockus}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{What make long term contributors: willingness and
+  opportunity in {OSS} community}. In \bibinfo{booktitle}{\emph{Int'l Conf.
+  Software Engineering}}. \bibinfo{publisher}{IEEE Press},
+  \bibinfo{pages}{518--528}.
+\newblock
+\showISBNx{978-1-4673-1067-3}
+
+
+\end{thebibliography}

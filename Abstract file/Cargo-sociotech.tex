@@ -1,0 +1,67 @@
+
+\include{preamble}
+
+
+
+\settopmatter{printacmref=false} % Removes citation information below abstract
+\renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column
+\pagestyle{plain}
+
+\setcitestyle{square,sort,comma,numbers}
+\usepackage{amssymb}% http://ctan.org/pkg/amssymb
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\settopmatter{printacmref=false}
+
+\newcommand{\commentty}[1]{{\color{blue} \sf (TY: #1)}}
+\newcommand{\commentlh}[1]{{\color{red} \sf (LH: #1)}}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+		T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\setcopyright{none} 
+
+\begin{document}
+
+	
+
+	\title{Socio-Technical Aspects of package dependencies in software ecosystems}
+
+	\author{Mehdi Golzadeh}
+	\authornote{Both authors contributed equally to this research.}
+	\email{mehdi.golzadeh@umons.ac.be}
+	\orcid{0000-0003-1041-439X}
+	\affiliation{%
+	\institution{Software Engineering Lab, UMONS}
+	\city{Mons, Belgium}
+	\postcode{7000}
+	}
+	
+	\newcommand*{\Scale}[2][4]{\scalebox{#1}{$#2$}}%
+	\newcommand{\Tool}{ComAir\xspace}
+	\newcommand{\ComBugs}{30\xspace}
+	%\newcommand{\Code}[1]{\lstinline{#1}}
+	%\newcommand{\comment}[1]{{}}
+	
+	
+	
+	
+	
+	\begin{abstract}
+		I think here we dont need an abstract cause it is a two page abstract. but I dont know how should section it.
+	\end{abstract}
+	
+	
+	
+	\maketitle
+	
+\input{Introduction.tex}
+\input{Methodology.tex}
+\input{Findings.tex}
+	
+	\bibliographystyle{ACM-Reference-Format}
+	\bibliography{biblio.bib}
+
+
+
+\end{document}
+
