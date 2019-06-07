@@ -1,35 +1,37 @@
 \section{ANALYSIS AND RESULTS}
 
-In order to study the socio-technical congruence hypothesis for the Cargo package manager, I started analysing its package dependency network and the associated technical and social (commenting) activities of its GitHub contributors.
-To do so, I focused on the three preliminary research questions presented in Section~\ref{sec:intro}.
+To study the socio-technical congruence of Cargo, I started analysing its package dependency network and the associated technical and social (commenting) activities of its GitHub contributors.
+%For this purpose I used Python notebooks and relied on existing data analytics and statistical libraries.
+Focusing on the research questions of Section~\ref{sec:intro}, I report some very preliminary analysis below.
+For now, the presented results are anecdotal and need to be complemented with proper statistical hypothesis testing, survival analysis and prediction modeling.
 
+I started to investigate how the commenting activity of contributors to a package relates to the introduction of a package dependency.
+To do so, I considered all packages for which a new dependency was added at some point in time, and analysed whether commenting activity could be observed \emph{before} or \emph{after} depending on those packages.
+Figure~\ref{fig:fig1} summarises the results. One can observe that more commenting activity happens on package repositories after the creation of dependencies to those packages than before adding such dependencies. 
+An important shift in behaviour can be observed around September 2017, where the commenting activity before starting to depend on packages is increasing and an inverse trend shift is observed for the commenting activity after starting to depend on packages. Why this trend shift occurs remains an open question for now.
 
-\textbf{RQ1 - } How does the dependency network structure influence social activity? In this research question I am looking for any proof of relation between technical network structure and social interaction between contributors (E.g., are contributors more likely to be active in commenting on packages they depend on than on other packages?) in order to find an answer for this question I created a notebook containing a dependency network and contributors comment of different types and investiged temporal and structural relation between comment activity of developers and dependency network. 
-
-\textbf{RQ2 - } How does the social activity of a contributor to a specific package increase his likelihood to start or stop depending on this package? As for this case I am looking for any kind of evidence showing that if there is any sort of relationship between social activity of the contributors of packages and temporal or structural pattern of dependency between packages. To do this in fact I basically tried to find a relation between any kind of social activity including issue comments, commit comment, pull review comment and pull comments of package maintainers and the dependency of each version of that package to find whether there is a tendency to put comment before start using a package or is there any behaviorial pattern between dependency network and social activity. If I can find any sign that shows its more likely for a developer to comment on package before start using it, based on this we can conclude social interaction can lead to technical dependency. My rudimental results shows that although not all activities will result in a technical dependency but there is priliminary evidence that shows there are a lot of cases that developer start using a package after commenting and to be more precise the result shows contributors tend to put comment on issues and pulls before depending on a package. the graph~\ref{fig:fig1} shows my finding in Cargo ecosystem.
-
-\begin{figure}[htb]
-    \includegraphics[width=\linewidth]{Photos/RQ22.pdf} 
-    \caption{Proportion of comments on unique dependent packages before an after dependency}
+\begin{figure}[thb]
+\vspace{-0.3cm}
+    \includegraphics[width=0.9\columnwidth]{Photos/RQ21.pdf} 
+    \caption{Commenting activity (number of comments) to package repositories before and after starting to depend on a package.}
     \label{fig:fig1}
 \end{figure}
 
+In order to assess which types of comments are more likely to lead to the introduction of new package dependencies, I analysed the proportion of comment types for all comments made in repositories of packages prior to the addition of a dependency to those packages. Figure~\ref{fig:fig2} presents these results. 
+One can observe that, among the four types of comments considered (i.e., commit comments, issue comments, pull request comments and pull request review comments), the proportion of comments on pull requests and issue requests is considerably higher than for commit comments and review comments. I hypothesise that commenting on pull requests and issue requests for a package could serve as a good predictor for adding new dependencies to that package.
 
-I also found that there are early signs of increase in commenting activity of developers before using a package as dependency and after june 2017 this trend has a drastic growth between contributors in Cargo ecosystem. the graph~\ref{fig:fig2} shows the emprical result of my investigations. 
-
-\begin{figure}[thb]
-    \includegraphics[width=\linewidth]{Photos/RQ21.pdf} 
-    \caption{Number of packages with social activity of developer before start using it}
+\begin{figure}[htb]
+    \includegraphics[width=0.9\columnwidth]{Photos/RQ22.pdf} 
+    \caption{Proportion of comment types made in the repositories of packages before starting to depend on that package.}
     \label{fig:fig2}
 \end{figure}
 
-
-
-\textbf{RQ3 - } How does the social activity of a contributor to a specific package increase his likelihood to start or stop becoming technically active for this package? The prerliminary result of my emprical study shows that package maintainers mostly start commenting on a issue before contributing to package. This shows that a contribution generally starts with an issue in some part of a package. the graph shows contributors tendency to comment before contributing to a package. 
+I also started to investigate whether social (i.e., commenting) activity on a package repository increases the likelihood to become technically active on that repository (i.e., submitting commits or pull requests). 
+Figure~\ref{fig:fig3} presents some preliminary results. Considering the four different types of commenting activity, one can observe that issue comments are more likely to result in becoming technically active on a package repository.
 
 \begin{figure}[thb]
-    \includegraphics[width=\linewidth]{Photos/RQ3.pdf} 
-    \caption{Comment avtivity before contributing to a package}
+    \includegraphics[width=0.9\columnwidth]{Photos/RQ3.pdf} 
+    \caption{Number of comments (broken down by comment type) before starting  to technically contribute to a package.}
     \label{fig:fig3}
 \end{figure}
 
