@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.2)  7 JUN 2019 09:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.2)  7 JUN 2019 11:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1323,22 +1323,44 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 ]) (/Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Findings.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<Photos/RQ2.pdf, id=100, 507.92357pt x 372.82788pt>
-File: Photos/RQ2.pdf Graphic file (type pdf)
-<use Photos/RQ2.pdf>
-Package pdftex.def Info: Photos/RQ2.pdf  used on input line 11.
-(pdftex.def)             Requested size: 241.14749pt x 177.00406pt.
+<Photos/RQ22.pdf, id=101, 505.25735pt x 194.3467pt>
+File: Photos/RQ22.pdf Graphic file (type pdf)
+<use Photos/RQ22.pdf>
+Package pdftex.def Info: Photos/RQ22.pdf  used on input line 12.
+(pdftex.def)             Requested size: 241.14749pt x 92.75749pt.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 13.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 13.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 11--12
-[][] 
- []
+
+Class acmart Warning: A possible image without description on input line 15.
+
+<Photos/RQ21.pdf, id=103, 494.73367pt x 167.06477pt>
+File: Photos/RQ21.pdf Graphic file (type pdf)
+<use Photos/RQ21.pdf>
+Package pdftex.def Info: Photos/RQ21.pdf  used on input line 21.
+(pdftex.def)             Requested size: 241.14749pt x 81.43419pt.
+
+Class acmart Warning: A possible image without description on input line 24.
+
+<Photos/RQ3.pdf, id=104, 552.21309pt x 210.06166pt>
+File: Photos/RQ3.pdf Graphic file (type pdf)
+<use Photos/RQ3.pdf>
+Package pdftex.def Info: Photos/RQ3.pdf  used on input line 31.
+(pdftex.def)             Requested size: 241.14749pt x 91.73186pt.
+
+Class acmart Warning: A possible image without description on input line 34.
 
 ) (/Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Conclusion.tex)
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 58.
+(Font)              scaled to size 7.0pt on input line 57.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 58.
- [2.2 </Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Photos/RQ2.pdf>] (/Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Cargo-sociotech.bbl
+(Font)              scaled to size 6.0pt on input line 57.
+ [2.2 </Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Photos/RQ22.pdf> </Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Photos/RQ21.pdf
+
+pdfTeX warning: pdflatex (file /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Photos/RQ21.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] (/Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Cargo-sociotech.bbl
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 7.0pt on input line 49.
 LaTeX Info: Redefining \tempurl on input line 71.
@@ -1358,11 +1380,6 @@ LaTeX Info: Redefining \tempurl on input line 367.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \tempurl on input line 406.
-)
-
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1370,28 +1387,37 @@ Make it at least 15.45749pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[3.3]
+[3.3 </Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Photos/RQ3.pdf>]
+LaTeX Info: Redefining \tempurl on input line 406.
+)
+
+Class acmart Warning: Some images may lack descriptions.
+
+
+Overfull \vbox (1.16599pt too high) has occurred while \output is active []
+
+ [4.4]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
  (/Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Cargo-sociotech.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 64.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 64.
 Package rerunfilecheck Info: File `Cargo-sociotech.out' has not changed.
-(rerunfilecheck)             Checksum: 94220896765E17D249A68CC8B8B0A192;695.
+(rerunfilecheck)             Checksum: 0E8EA83AA2B3032876E1DE9848ABC9EF;695.
  ) 
 Here is how much of TeX's memory you used:
- 27254 strings out of 492616
- 452259 string characters out of 6129482
- 547994 words of memory out of 5000000
- 30376 multiletter control sequences out of 15000+600000
- 644964 words of font info for 237 fonts, out of 8000000 for 9000
+ 27284 strings out of 492616
+ 452848 string characters out of 6129482
+ 545994 words of memory out of 5000000
+ 30396 multiletter control sequences out of 15000+600000
+ 655114 words of font info for 240 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 64i,16n,96p,1383b,496s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,16n,96p,1535b,682s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on "/Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Cargo-sociotech.pdf" (3 pages, 379379 bytes).
+Output written on "/Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Cargo-sociotech.pdf" (4 pages, 405349 bytes).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 30786 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 282 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 33356 words of extra memory for PDF output out of 35830 (max. 10000000)
 
