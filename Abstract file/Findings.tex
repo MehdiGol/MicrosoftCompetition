@@ -5,15 +5,14 @@ To study the socio-technical congruence of Cargo, I started analysing its packag
 Focusing on the research questions of Section~\ref{sec:intro}, I report some very preliminary analysis below.
 For now, the presented results are anecdotal and need to be complemented with proper statistical hypothesis testing, survival analysis and prediction modeling.
 
-I started to investigate how the commenting activity of contributors to a package relates to the introduction of a package dependency.
-To do so, I considered all packages for which a new dependency was added at some point in time, and analysed whether commenting activity could be observed \emph{before} or \emph{after} depending on those packages.
-Figure~\ref{fig:fig1} summarises the results. One can observe that more commenting activity happens on package repositories after the creation of dependencies to those packages than before adding such dependencies. 
-An important shift in behaviour can be observed around September 2017, where the commenting activity before starting to depend on packages is increasing and an inverse trend shift is observed for the commenting activity after starting to depend on packages. Why this trend shift occurs remains an open question for now.
+I started to investigate how the presence of commenting activity in a package repository relates to the introduction of a package dependency.
+To do so, I considered all packages for which a new dependency was added at some point in time, and analysed whether commenting activity could be observed in the package repository \emph{before} or \emph{after} depending on these packages. Figure~\ref{fig:fig1} summarises the results. One can observe that in more cases commenting activity started after the creation of a package dependency than before adding the dependency. 
+An important shift in behaviour can be observed around September 2017, where the number of packages with commenting activity before starting to depend on them is increasing and an inverse trend shift is observed for the packages with commenting activity  after starting to depend on them. Why this trend shift occurs remains an open question for now.
 
 \begin{figure}[thb]
 \vspace{-0.3cm}
     \includegraphics[width=0.9\columnwidth]{Photos/RQ21.pdf} 
-    \caption{Commenting activity (number of comments) to package repositories before and after starting to depend on a package.}
+    \caption{Number of package repositories with first commenting activity \emph{before} or \emph{after} starting to depend on a package.}
     \label{fig:fig1}
 \end{figure}
 
