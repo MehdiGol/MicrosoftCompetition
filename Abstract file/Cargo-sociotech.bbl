@@ -3,7 +3,7 @@
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
 \providecommand{\noopsort}[1]{}
-\begin{thebibliography}{12}
+\begin{thebibliography}{26}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -38,6 +38,92 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
+\bibitem[\protect\citeauthoryear{{Bhattacharya}, {Iliofotou}, {Neamtiu}, and
+  {Faloutsos}}{{Bhattacharya} et~al\mbox{.}}{2012}]%
+        {Bhattacharya2012}
+\bibfield{author}{\bibinfo{person}{P. {Bhattacharya}}, \bibinfo{person}{M.
+  {Iliofotou}}, \bibinfo{person}{I. {Neamtiu}}, {and} \bibinfo{person}{M.
+  {Faloutsos}}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Graph-based analysis and prediction for software
+  evolution}. In \bibinfo{booktitle}{\emph{International Conference on Software
+  Engineering ({ICSE})}}. \bibinfo{pages}{419--429}.
+\newblock
+\showISSN{1558-1225}
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ICSE.2012.6227173}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Bird, Nagappan, Gall, Murphy, and
+  Devanbu}{Bird et~al\mbox{.}}{2009}]%
+        {Bird2009}
+\bibfield{author}{\bibinfo{person}{Christian Bird}, \bibinfo{person}{Nachiappan
+  Nagappan}, \bibinfo{person}{Harald Gall}, \bibinfo{person}{Brendan Murphy},
+  {and} \bibinfo{person}{Premkumar Devanbu}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Putting It All Together: Using Socio-technical
+  Networks to Predict Failures}. In \bibinfo{booktitle}{\emph{International
+  Symposium on Software Reliability Engineering}} \emph{(\bibinfo{series}{ISSRE
+  '09})}. \bibinfo{publisher}{IEEE Computer Society},
+  \bibinfo{address}{Washington, DC, USA}, \bibinfo{pages}{109--119}.
+\newblock
+\showISBNx{978-0-7695-3878-5}
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ISSRE.2009.17}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Blincoe, Harrison, Kaur, and Damian}{Blincoe
+  et~al\mbox{.}}{2019}]%
+        {Blincoe2019}
+\bibfield{author}{\bibinfo{person}{Kelly Blincoe}, \bibinfo{person}{Francis
+  Harrison}, \bibinfo{person}{Navpreet Kaur}, {and} \bibinfo{person}{Daniela
+  Damian}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Reference Coupling: An exploration of inter-project
+  technical dependencies and their characteristics within large software
+  ecosystems}.
+\newblock \bibinfo{journal}{\emph{Information and Software Technology}}
+  \bibinfo{volume}{110} (\bibinfo{year}{2019}), \bibinfo{pages}{174 -- 189}.
+\newblock
+\showISSN{0950-5849}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.infsof.2019.03.005}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Bogart, K\"{a}stner, Herbsleb, and
+  Thung}{Bogart et~al\mbox{.}}{2016}]%
+        {Bogart2016}
+\bibfield{author}{\bibinfo{person}{Christopher Bogart},
+  \bibinfo{person}{Christian K\"{a}stner}, \bibinfo{person}{James Herbsleb},
+  {and} \bibinfo{person}{Ferdian Thung}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{How to Break an {API}: Cost Negotiation and
+  Community Values in Three Software Ecosystems}. In
+  \bibinfo{booktitle}{\emph{International Symposium on Foundations of Software
+  Engineering ({FSE})}}. \bibinfo{publisher}{ACM}, \bibinfo{pages}{109--120}.
+\newblock
+\showISBNx{978-1-4503-4218-6}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2950290.2950325}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Cataldo and Herbsleb}{Cataldo and
+  Herbsleb}{2008}]%
+        {Cataldo2008}
+\bibfield{author}{\bibinfo{person}{Marcelo Cataldo} {and}
+  \bibinfo{person}{James~D. Herbsleb}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Communication Networks in Geographically
+  Distributed Software Development}. In \bibinfo{booktitle}{\emph{ACM
+  Conference on Computer Supported Cooperative Work}}
+  \emph{(\bibinfo{series}{CSCW '08})}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{579--588}.
+\newblock
+\showISBNx{978-1-60558-007-4}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/1460563.1460654}
+\showDOI{\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Constantinou and Mens}{Constantinou and
   Mens}{2017}]%
         {Constantinou2017SANER}
@@ -63,6 +149,113 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Dabbish, Stuart, Tsay, and Herbsleb}{Dabbish
+  et~al\mbox{.}}{2012}]%
+        {DabbishSTH12}
+\bibfield{author}{\bibinfo{person}{Laura~A. Dabbish},
+  \bibinfo{person}{H.~Colleen Stuart}, \bibinfo{person}{Jason Tsay}, {and}
+  \bibinfo{person}{James~D. Herbsleb}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Social coding in {GitHub}: transparency and
+  collaboration in an open software repository}. In
+  \bibinfo{booktitle}{\emph{Int'l Conf. Computer Supported Cooperative Work}}.
+  \bibinfo{pages}{1277--1286}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Decan, Mens, and Claes}{Decan
+  et~al\mbox{.}}{2017}]%
+        {Decan2017SANER}
+\bibfield{author}{\bibinfo{person}{Alexandre Decan}, \bibinfo{person}{Tom
+  Mens}, {and} \bibinfo{person}{Maelick Claes}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{An empirical comparison of dependency issues in
+  {OSS} packaging ecosystems}. In \bibinfo{booktitle}{\emph{International
+  Conference on Software Analysis, Evolution and Reengineering ({SANER})}}.
+  \bibinfo{pages}{2--12}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/SANER.2017.7884604}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Decan, Mens, and Grosjean}{Decan
+  et~al\mbox{.}}{2019}]%
+        {Decan2019EMSE}
+\bibfield{author}{\bibinfo{person}{Alexandre Decan}, \bibinfo{person}{Tom
+  Mens}, {and} \bibinfo{person}{Philippe Grosjean}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{An empirical comparison of dependency network
+  evolution in seven software packaging ecosystems}.
+\newblock \bibinfo{journal}{\emph{Empirical Software Engineering}}
+  \bibinfo{volume}{24}, \bibinfo{number}{1} (\bibinfo{date}{February}
+  \bibinfo{year}{2019}), \bibinfo{pages}{381--416}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1007/s10664-017-9589-y}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Dietrich, Pearce, Stringer, Tahir, and
+  Blincoe}{Dietrich et~al\mbox{.}}{2019}]%
+        {Dietrich2019}
+\bibfield{author}{\bibinfo{person}{Jens Dietrich}, \bibinfo{person}{David~J.
+  Pearce}, \bibinfo{person}{Jacob Stringer}, \bibinfo{person}{Amjed Tahir},
+  {and} \bibinfo{person}{Kelly Blincoe}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Dependency Versioning in the Wild}. In
+  \bibinfo{booktitle}{\emph{International Conference on Mining Software
+  Repositories ({MSR})}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gharehyazie, Posnett, and Filkov}{Gharehyazie
+  et~al\mbox{.}}{2013}]%
+        {Gharehyazie2013-ICSM}
+\bibfield{author}{\bibinfo{person}{Mohammad Gharehyazie},
+  \bibinfo{person}{Daryl Posnett}, {and} \bibinfo{person}{Vladimir Filkov}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Social Activities Rival Patch Submission For
+  Prediction of Developer Initiation in {OSS} Projects}. In
+  \bibinfo{booktitle}{\emph{Int'l Conf. Software Maintenance}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Herbsleb and Grinter}{Herbsleb and
+  Grinter}{1999}]%
+        {Herbsleb1999}
+\bibfield{author}{\bibinfo{person}{J.~D. Herbsleb} {and} \bibinfo{person}{R.~E.
+  Grinter}.} \bibinfo{year}{1999}\natexlab{}.
+\newblock \showarticletitle{Architectures, coordination, and distance: Conway's
+  law and beyond}.
+\newblock \bibinfo{journal}{\emph{{IEEE} Software}} \bibinfo{volume}{16},
+  \bibinfo{number}{5} (\bibinfo{year}{1999}), \bibinfo{pages}{63--70}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Katz}{Katz}{2018}]%
+        {Katz2018}
+\bibfield{author}{\bibinfo{person}{Jeremy Katz}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{Libraries.io Open Source Repository and Dependency
+  Metadata (Version 1.4.0) [Data set]}.
+\newblock \bibinfo{howpublished}{http://doi.org/10.5281/zenodo.2536573}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{{Kikas}, {Gousios}, {Dumas}, and
+  {Pfahl}}{{Kikas} et~al\mbox{.}}{2017}]%
+        {Kikas2017}
+\bibfield{author}{\bibinfo{person}{R. {Kikas}}, \bibinfo{person}{G. {Gousios}},
+  \bibinfo{person}{M. {Dumas}}, {and} \bibinfo{person}{D. {Pfahl}}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Structure and Evolution of Package Dependency
+  Networks}. In \bibinfo{booktitle}{\emph{International Conference on Mining
+  Software Repositories ({MSR})}}. \bibinfo{pages}{102--112}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/MSR.2017.55}
+\showDOI{\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Kintab, Roy, and McCalla}{Kintab
   et~al\mbox{.}}{2014}]%
         {Kintab:2014:RSE:2735522.2735526}
@@ -79,6 +272,23 @@
 \url{http://dl.acm.org/citation.cfm?id=2735522.2735526}
 \showURL{%
 \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Kwan, Schroter, and Damian}{Kwan
+  et~al\mbox{.}}{2011}]%
+        {Kwan2011}
+\bibfield{author}{\bibinfo{person}{I. Kwan}, \bibinfo{person}{A. Schroter},
+  {and} \bibinfo{person}{D. Damian}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Does Socio-Technical Congruence Have an Effect on
+  Software Build Success? {A} Study of Coordination in a Software Project}.
+\newblock \bibinfo{journal}{\emph{IEEE Trans. Soft. Eng.}}
+  \bibinfo{volume}{37}, \bibinfo{number}{3} (\bibinfo{date}{May}
+  \bibinfo{year}{2011}), \bibinfo{pages}{307--324}.
+\newblock
+\showISSN{0098-5589}
+\urldef\tempurl%
+\url{https://doi.org/10.1109/TSE.2011.29}
+\showDOI{\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Lopez-Fernandez, Robles, Gonzalez-Barahona,
@@ -98,16 +308,58 @@
 \showDOI{\tempurl}
 
 
-\bibitem[\protect\citeauthoryear{{Palyart}, {Murphy}, and {Masrani}}{{Palyart}
+\bibitem[\protect\citeauthoryear{Lungu}{Lungu}{2009}]%
+        {Lungu2009}
+\bibfield{author}{\bibinfo{person}{Mircea Lungu}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \emph{\bibinfo{title}{Reverse Engineering Software Ecosystems}}.
+\newblock \bibinfo{thesistype}{Ph.D. Dissertation}. \bibinfo{school}{University
+  of Lugano}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Manikas and Hansen}{Manikas and
+  Hansen}{2013}]%
+        {ManikasHansen2013}
+\bibfield{author}{\bibinfo{person}{Konstantinos Manikas} {and}
+  \bibinfo{person}{Klaus~Marius Hansen}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Software Ecosystems: A Systematic Literature
+  Review}.
+\newblock \bibinfo{journal}{\emph{{J. Systems and Software}}}
+  \bibinfo{volume}{86}, \bibinfo{number}{5} (\bibinfo{date}{May}
+  \bibinfo{year}{2013}), \bibinfo{pages}{1294--1306}.
+\newblock
+\urldef\tempurl%
+\url{http://dx.doi.org/10.1016/j.jss.2012.12.026}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Mens, Cataldo, and Damian}{Mens
+  et~al\mbox{.}}{2019}]%
+        {Mens2019IEEESW}
+\bibfield{author}{\bibinfo{person}{Tom Mens}, \bibinfo{person}{Marcelo
+  Cataldo}, {and} \bibinfo{person}{Daniela Damian}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{The Social Developer: The Future of Software
+  Development}.
+\newblock \bibinfo{journal}{\emph{{IEEE} Software}}  \bibinfo{volume}{36}
+  (\bibinfo{date}{January--February} \bibinfo{year}{2019}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/MS.2018.2874316}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Palyart, Murphy, and Masrani}{Palyart
   et~al\mbox{.}}{2018}]%
-        {8049385}
-\bibfield{author}{\bibinfo{person}{M. {Palyart}}, \bibinfo{person}{G.~C.
-  {Murphy}}, {and} \bibinfo{person}{V. {Masrani}}.}
-  \bibinfo{year}{2018}\natexlab{}.
+        {Palyart2018TSE}
+\bibfield{author}{\bibinfo{person}{M. Palyart}, \bibinfo{person}{G.~C. Murphy},
+  {and} \bibinfo{person}{V. Masrani}.} \bibinfo{year}{2018}\natexlab{}.
 \newblock \showarticletitle{A Study of Social Interactions in Open Source
   Component Use}.
 \newblock \bibinfo{journal}{\emph{IEEE Transactions on Software Engineering}}
-  \bibinfo{volume}{44}, \bibinfo{number}{12} (\bibinfo{date}{Dec}
+  \bibinfo{volume}{44}, \bibinfo{number}{12} (\bibinfo{date}{dec}
   \bibinfo{year}{2018}), \bibinfo{pages}{1132--1145}.
 \newblock
 \showISSN{0098-5589}
@@ -139,57 +391,6 @@
   Socio-Technical Network Patterns}. In \bibinfo{booktitle}{\emph{European
   Conf. Software Maintenance and Reengineering}}.
 \newblock
-
-
-\bibitem[\protect\citeauthoryear{Tamburri, Kruchten, Lago, and {van
-  Vliet}}{Tamburri et~al\mbox{.}}{2015}]%
-        {Tamburri2015}
-\bibfield{author}{\bibinfo{person}{Damian~A. Tamburri},
-  \bibinfo{person}{Philippe Kruchten}, \bibinfo{person}{Patricia Lago}, {and}
-  \bibinfo{person}{Hans {van Vliet}}.} \bibinfo{year}{2015}\natexlab{}.
-\newblock \showarticletitle{Social debt in software engineering: insights from
-  industry}.
-\newblock \bibinfo{journal}{\emph{J. Internet Services and Applications}}
-  \bibinfo{volume}{6}, \bibinfo{number}{1} (\bibinfo{year}{2015}),
-  \bibinfo{pages}{1--17}.
-\newblock
-\showISSN{1869-0238}
-\urldef\tempurl%
-\url{https://doi.org/10.1186/s13174-015-0024-6}
-\showDOI{\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Vasilescu, Posnett, Ray, van~den Brand,
-  Serebrenik, Devanbu, and Filkov}{Vasilescu et~al\mbox{.}}{2015}]%
-        {Vasilescu2015CHI}
-\bibfield{author}{\bibinfo{person}{Bogdan Vasilescu}, \bibinfo{person}{Daryl
-  Posnett}, \bibinfo{person}{Baishakhi Ray}, \bibinfo{person}{Mark G.~J.
-  van~den Brand}, \bibinfo{person}{Alexander Serebrenik},
-  \bibinfo{person}{Premkumar~T. Devanbu}, {and} \bibinfo{person}{Vladimir
-  Filkov}.} \bibinfo{year}{2015}\natexlab{}.
-\newblock \showarticletitle{Gender and Tenure Diversity in GitHub Teams}. In
-  \bibinfo{booktitle}{\emph{Int'l Conf. Human Factors in Computing Systems
-  ({CHI})}}. ACM, \bibinfo{pages}{3789--3798}.
-\newblock
-\urldef\tempurl%
-\url{https://doi.org/10.1145/2702123.2702549}
-\showDOI{\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Zanetti, Scholtes, Tessone, and
-  Schweitzer}{Zanetti et~al\mbox{.}}{2013}]%
-        {Zanetti2013CHASE}
-\bibfield{author}{\bibinfo{person}{M.~S. Zanetti}, \bibinfo{person}{I.
-  Scholtes}, \bibinfo{person}{C.~J. Tessone}, {and} \bibinfo{person}{F.
-  Schweitzer}.} \bibinfo{year}{2013}\natexlab{}.
-\newblock \showarticletitle{The rise and fall of a central contributor:
-  Dynamics of social organization and performance in the {Gentoo} community}.
-  In \bibinfo{booktitle}{\emph{Int'l Workshop on Cooperative and Human Aspects
-  of Software Engineering}}. \bibinfo{pages}{49--56}.
-\newblock
-\urldef\tempurl%
-\url{https://doi.org/10.1109/CHASE.2013.6614731}
-\showDOI{\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Zhou and Mockus}{Zhou and Mockus}{2011}]%

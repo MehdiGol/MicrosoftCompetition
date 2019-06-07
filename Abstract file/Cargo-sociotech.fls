@@ -7,8 +7,8 @@ OUTPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Cargo-sociote
 OUTPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/preamble.aux
 INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/preamble.tex
 INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/preamble.tex
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/acmart/acmart.cls
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/acmart/acmart.cls
+INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/acmart.cls
+INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/acmart.cls
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
@@ -272,33 +272,16 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinBiolinumTB-tlf-t1.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1.tfm
 INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Introduction.tex
 INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Introduction.tex
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/newtx/nxlmi.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msa.cfg
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msa.cfg
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msb.cfg
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msb.cfg
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/newtx/nxlmia.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1.tfm
+INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Related.tex
+INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Related.tex
 INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Methodology.tex
 INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Methodology.tex
-INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Findings.tex
-INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Findings.tex
-INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Photos/RQ1_1.pdf
-INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Photos/RQ1_1.pdf
-INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Photos/RQ1_1.pdf
-INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Cargo-sociotech.bbl
-INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Cargo-sociotech.bbl
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
@@ -311,27 +294,37 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/public/libertine/LinLibertineT
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/public/newtx/ntxsy.vf
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/newtx/txsys.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/public/libertine/LinLibertineTI-tlf-t1.vf
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/public/libertine/LinLibertineTB-tlf-t1.vf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1--base.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/public/libertine/LinBiolinumT-tlf-t1.vf
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
+INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Findings.tex
+INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Findings.tex
+INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Photos/RQ2.pdf
+INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Photos/RQ2.pdf
+INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Photos/RQ2.pdf
+INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Conclusion.tex
+INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Conclusion.tex
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/public/libertine/LinBiolinumT-tlf-t1.vf
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1--base.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/public/libertine/LinBiolinumT-tlf-t1.vf
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1--base.tfm
+INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Cargo-sociotech.bbl
+INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Cargo-sociotech.bbl
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/public/libertine/LinBiolinumT-tlf-t1.vf
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1--base.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/public/libertine/LinBiolinumT-tlf-t1.vf
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/public/libertine/LinLibertineTI-tlf-t1.vf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1--base.tfm
 INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Cargo-sociotech.aux
 INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Cargo-sociotech.out
 INPUT /Users/mehdigolzadeh/Works/EstoniaCompetition/Abstract file/Cargo-sociotech.out
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb
@@ -339,4 +332,3 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/libertine/LinBiolinu
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/newtx/txsys.pfb

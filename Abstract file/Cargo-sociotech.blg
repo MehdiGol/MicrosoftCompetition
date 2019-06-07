@@ -10,59 +10,71 @@ Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty publisher in Bhattacharya2012
+Warning--empty address in Bhattacharya2012
+Warning--empty address in Bogart2016
 Warning--empty publisher in Constantinou2017SANER
 Warning--empty address in Constantinou2017SANER
 Warning--no number and no volume in Conway1968
+Warning--empty publisher in DabbishSTH12
+Warning--empty address in DabbishSTH12
+Warning--empty publisher in Decan2017SANER
+Warning--empty address in Decan2017SANER
+Warning--empty publisher in Dietrich2019
+Warning--empty address in Dietrich2019
+Warning--page numbers missing in both pages and numpages fields in Dietrich2019
+Warning--empty publisher in Gharehyazie2013-ICSM
+Warning--empty address in Gharehyazie2013-ICSM
+Warning--page numbers missing in both pages and numpages fields in Gharehyazie2013-ICSM
+Warning--empty publisher in Kikas2017
+Warning--empty address in Kikas2017
 Warning--empty address in lopezfernandez2006:sna
+Warning--page numbers missing in both pages and numpages fields in Mens2019IEEESW
 Warning--empty address in Robles2009MSR
 Warning--empty publisher in SurianTLCL13
 Warning--empty address in SurianTLCL13
 Warning--page numbers missing in both pages and numpages fields in SurianTLCL13
-Warning--empty publisher in Vasilescu2015CHI
-Warning--empty address in Vasilescu2015CHI
-Warning--empty publisher in Zanetti2013CHASE
-Warning--empty address in Zanetti2013CHASE
 Warning--empty address in Zhou2011-ICSE
 Warning--empty address in Zhou2012-ICSE
-You've used 12 entries,
-            5719 wiz_defined-function locations,
-            1574 strings with 21076 characters,
-and the built_in function-call counts, 15387 in all, are:
-= -- 1813
-> -- 561
+You've used 26 entries,
+            5727 wiz_defined-function locations,
+            1681 strings with 24116 characters,
+and the built_in function-call counts, 31967 in all, are:
+= -- 3910
+> -- 1117
 < -- 1
-+ -- 188
-- -- 188
-* -- 1116
-:= -- 1539
-add.period$ -- 60
-call.type$ -- 12
-change.case$ -- 88
-chr.to.int$ -- 12
-cite$ -- 26
-duplicate$ -- 1391
-empty$ -- 962
-format.name$ -- 232
-if$ -- 3643
++ -- 370
+- -- 372
+* -- 2285
+:= -- 3165
+add.period$ -- 129
+call.type$ -- 26
+change.case$ -- 182
+chr.to.int$ -- 26
+cite$ -- 52
+duplicate$ -- 2893
+empty$ -- 2005
+format.name$ -- 464
+if$ -- 7656
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 53
-newline$ -- 158
-num.names$ -- 96
-pop$ -- 523
+missing$ -- 108
+newline$ -- 293
+num.names$ -- 208
+pop$ -- 1061
 preamble$ -- 2
-purify$ -- 196
+purify$ -- 416
 quote$ -- 0
-skip$ -- 503
+skip$ -- 1045
 stack$ -- 0
-substring$ -- 1170
-swap$ -- 152
+substring$ -- 2443
+swap$ -- 311
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 318
-warning$ -- 14
-while$ -- 94
+type$ -- 668
+warning$ -- 26
+while$ -- 193
 width$ -- 0
-write$ -- 272
-(There were 14 warnings)
+write$ -- 536
+(There were 26 warnings)
