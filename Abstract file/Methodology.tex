@@ -1,16 +1,22 @@
-\section{Methodology}
+\section{Data Extraction}
 
-The \textsf{libraries.io} monitoring service provides access to package dependency metadata for 36 different package managers.
-Among these, I have selected the Cargo package manager as a case study. Cargo is the default package manager for packages (a.k.a. ``crates") for the Rust programming language. Cargo is fairly recent (created in 2014), and the development history of most of its packages is available on GitHub. 
-Is shown in \cite{Decan2019EMSE}, Cargo is growing fast in number of packages, package releases, dependencies and contributors. 
-By studying this package dependency network since its inception I hope to gain insights into how the ecosystem growth affects the socio-technical congruence over time.
+The \textsf{libraries.io} monitoring contains package dependency metadata for 36 different package managers.
+Among these, I have selected the Cargo as a case study. It is the default package manager for %packages (a.k.a. ``crates") for 
+the Rust programming language. Cargo was recently created (in 2014), and the development history of most of its packages is available on GitHub. 
+Cargo is growing fast in number of packages, package releases, dependencies and contributors \cite{Decan2019EMSE}. 
+By studying this package dependency networks I hope to gain insights into how the ecosystem growth affects the socio-technical congruence over time.
 
 I relied on a datadump of libraries.io \cite{Katz2018} to recover the entire temporal evolution of the Cargo package dependency network. 
-For each package, I extracted metadata such as the package name, release number and release date, maintainer, package dependencies and their versioning constraints. I also retrieved the (optional) link to the corresponding GitHub repositories. Packages for which no GitHub link was found, or for which the link was incorrect were filtered out. The libraries.io dataset I used was quite big and there were 48597 unique package dependency relation and 14491 package with more than 66106 releases. I also found that 1571 of records contain no repository address, 413 of them have repository address other than GitHub and 3500 of them contains duplicate repository address. Finally I ended up with 9954 GitHub repositories to download metadata.
+For each package, I extracted metadata such as the package name, release number and release date, maintainer, package dependencies and their versioning constraints. 
+The dataset contained $>14k$ packages, $>66k$ package releases and $>48k$ package dependency relations.
+I retrieved the (optional) link to the corresponding development repositories and filtered out packages for which no GitHub repository was found (1,984 cases) %1984 = 1571 + 413 
+or that corresponded to duplicate repository links (3,500 cases).
+ % I also found that 1571 of records contain no repository address, 413 of them have repository address other than GitHub and 3500 of them contains duplicate repository address.
+I downloaded the relevant historical socio-technical data from the remaining 9,954 GitHub repositories.
 %TO DO: Mention here how big is the libraries.io dataset you used (after filtering): how many packages; how many package releases; how may package dependencies; how many github repositories}
-
-From the GitHub repository associated to each remaining package I gathered relevant technical and social activity. This information includes all contributors and their role, the ``social'' commenting activities they were involved in (separated into commit comments, pull comments, pull review comments and issue comments), and the ``technical'' development activities they were involved in (commits, pull requests and issue requests). The downloaded metadata was also fairly big including 942183 commits, 145053 pull requests, 266033 issues, 90228 unique comments-contributor. It is also worth to mention that 3170 repositories have no comments and comments follow the pareto rule which mean more than 80 percent of comments belong to less than 20 percents of the repositories.
-%TO DO: Mention here how big is the GitHub dataset: how many distinct contributors; how many commits; how many comments and so on.}
+This data includes all contributors and their role, the \emph{social} commenting activities they were involved in ($>90k$ comments separated into commit comments, pull comments, pull review comments and issue comments), and the \emph{technical} development activities they had conducted ($>942k$ commits, $>145k$ pull requests and $>266k$ issues).
+%The downloaded metadata was also fairly big including 942183 commits, 145053 pull requests, 266033 issues, 90228 unique comments-contributor.
+It is worthwhile to mention that 3,170 repositories had no comments, and comments follow the Pareto rule ($>80\%$ of all comments belonges to $<20\%$ of all repositories).
 
 To explore and analyse the extracted temporal socio-technical package dependency network, I use Python scripts and notebooks, and rely of existing data analytics and statistical libraries.
 
