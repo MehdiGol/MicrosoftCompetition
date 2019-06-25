@@ -1,28 +1,30 @@
 \section{Introduction}
 \label{sec:intro}
 
-Today's software development is increasingly relying on software package libraries distributed through open source software package managers (such as Cargo, npm, Maven, CRAN and many more). Rather than writing software from scratch, developers often choose to depend on existing software packages.
+Today's software development is increasingly relying on software package libraries distributed through open source software (OSS) package managers (such as Cargo, npm, Maven and CRAN). Rather than writing software from scratch, developers often choose to depend on existing software packages.
 At the same time, collaborative online development platforms like GitHub make software development an inherently social phenomenon \cite{DabbishSTH12,Mens2019IEEESW}.
 
-The internal structure of a software package manager can be considered as a kind of \emph{socio-technical} dependency network. Packages depend on other packages that are required for installing and deploying them. Software developers are \emph{technically} contributing to these packages (e.g., by making commits, pull requests or issue reports to the package's git repository). Software developers are also \emph{socially} active (e.g., by commenting through GitHub on the development activities of packages).
-The phenomenon of socio-technical congruence (a.k.a. Conway's law) \cite{Conway1968, Herbsleb1999} assumes a tight connection between the package dependency network structure and the communication structure of its community of contributors. There is, however, very little research studying such socio-technical congruence at the ecosystem level \cite{Palyart2018TSE}, or how the socio-technical congruence evolves over time \cite{Cataldo2008}.
+The collection of packages distributed by a software package manager forms a \emph{socio-technical} dependency network. Packages depend on other packages that are required for installing and deploying them. Software developers are \emph{technically} contributing to these packages (e.g., by making commits, pull requests or issue reports to the package's git repository). Software developers are also \emph{socially} active (e.g., by commenting on the commit and pull request activities).
+The phenomenon of socio-technical congruence (a.k.a. Conway's law) \cite{Conway1968, Herbsleb1999} assumes
+that the package dependency network structure and the communication structure of its community of contributors are tightly interwoven. Very little research focuses on such socio-technical congruence at the ecosystem level \cite{Palyart2018TSE}, or studies show the congruence evolves over time \cite{Cataldo2008}.
 
-My PhD research project that started \emph{very} recently (June 1, 2019) aims to empirically study, at the scale of the entire ecosystem, the socio-technical relationship between software package dependencies and the interaction patterns of the contributors to those packages.
-As such, I aim to gain a better understanding of how the socio-technical congruence within open source software packaging ecosystems evolves over time, and how this affects the health of the package dependency network and its community of contributors.
-
-To validate the socio-technical congruence hypothesis for package dependency networks of open source software package managers, I am studying three exploratory research questions: 
+My PhD research project %started in June 2019, and
+aims to empirically study at ecosystem level the socio-technical relationship between software package dependencies and the interaction patterns of package contributors.
+As such, I aim to gain a better understanding of how the socio-technical congruence within OSS packaging ecosystems evolves over time, and how this affects the health of the package dependency network and its contributor community.
+To validate the congruence hypothesis %for package dependency networks of OSS package managers,
+I will explore 3 research questions: 
 % to find if there is some tendency or correlation between package dependency network and the  collaborator communication network:
 
 
 \noindent \textbf{RQ1} How does the dependency network structure influence social activity? %(E.g., are contributors more likely to be active in commenting on packages they depend on than on other packages?
 
-\noindent \textbf{RQ2} How does the social activity of a specific package contributor increase his likelihood to start/stop depending on this package?
+\noindent \textbf{RQ2} How does the social activity package contributors increase their likelihood to start/stop depending on this package?
 
-\noindent \textbf{RQ3} How does the social activity of a specific package contributor increase his likelihood to start/stop becoming technically active for this package?
+\noindent \textbf{RQ3} How does the social activity of package contributors increase their likelihood to start/stop becoming technically active for this package?
 
 
-In the first phase of my research, I will focus on packages distributed through the Cargo package manager and developed on GitHub, which is by large the biggest online collaborative software development platform.
-
+In the first phase of my research, I will focus on packages distributed through the Cargo package manager and developed on GitHub, the biggest online collaborative development platform.
+%
 I will focus on different types of \emph{technical} development activity (e.g., commits, pull requests and issue reports through GitHub) and \emph{social} communication activity (e.g., commit comments, pull request comments and issue comments through GitHub). 
 
-More research questions, activity types and packaging ecosystems will be explored in a later phase of my PhD research, on the basis of the results obtained for these questions for the Cargo case study. These follow-up questions will focus on the expected benefits that socio-technical congruence will have on the health of the packaging ecosystem community, such as increased productivity, responsiveness, contributor intake and retention.
+More research questions, activity types and packaging ecosystems will be explored in a later phase, on the basis of the results obtained for these questions for the Cargo case study. These follow-up questions will focus on the expected benefits that socio-technical congruence will have on the health of the packaging ecosystem community, such as increased productivity, responsiveness, contributor intake and retention.
