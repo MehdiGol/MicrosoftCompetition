@@ -2338,17 +2338,10 @@ FUNCTION { misc }
   fin.entry
 }
 
-FUNCTION { online } { manual }
+FUNCTION { online } { misc }
 
-FUNCTION { game } { manual }
+FUNCTION { game } { misc }
 
-FUNCTION { artifactsoftware } { manual }
-
-FUNCTION { artifactdataset } { manual }
-
-FUNCTION { software } { manual }
-
-FUNCTION { dataset } { manual }
 
 FUNCTION { phdthesis }
 {
