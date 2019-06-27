@@ -1,6 +1,6 @@
 \section{PRELIMINARY ANALYSIS}
 
-To study the socio-technical congruence of Cargo, I started analysing its package dependency network and the associated technical and social (commenting) activities of its GitHub contributors.
+To study the socio-technical congruence of Cargo, I started analysing its package dependency network and the associated technical and social activities of its contributors.
 %For this purpose I used Python notebooks and relied on existing data analytics and statistical libraries.
 Focusing on the research questions of Section~\ref{sec:intro}, I report some very preliminary analysis below.
 For now, the presented results are anecdotal and need to be complemented with proper statistical hypothesis testing, regression and survival analysis, and prediction modeling.
@@ -16,7 +16,7 @@ An important shift in behaviour can be observed around September 2017, where the
     \label{fig:fig1}
 \end{figure}
 
-In order to assess which types of GitHub comments (i.e., commit comments, issue comments, pull request comments or pull request review comments) are more likely to lead to the introduction of new package dependencies, I analysed their relative proportion in repositories of packages prior to the addition of a dependency to those packages. Figure~\ref{fig:fig2} presents these results. 
+In order to assess which types of comments (i.e., commit comments, issue comments, pull request comments or pull request review comments) are more likely to lead to the introduction of new package dependencies, I analysed their relative proportion in repositories prior to the addition of a dependency to those packages. Figure~\ref{fig:fig2} presents these results. 
 Among the four types of comments, the proportion of comments on pull requests and issue requests is considerably higher than for commit comments and pull request review comments. I hypothesise that commenting on pull requests and issue requests for a package could serve as a good predictor for adding new dependencies to that package. More detailed statistical analyses are needed to confirm this hypothesis.
 
 \begin{figure}[htb]
@@ -27,7 +27,8 @@ Among the four types of comments, the proportion of comments on pull requests an
 
 I also started to investigate whether social (i.e., commenting) activity on a package repository increases the likelihood to become technically active on that repository (i.e., submitting commits or pull requests). 
 Figure~\ref{fig:fig3} presents some preliminary results. Considering the four comment types, issue comments appear to be more likely to result in becoming technically active on a package repository.
-{\color{red}TOM: It is impossible to intepret what is shown in Figure 3 due to lack of information. You do not explain what is shown on the y axis, and how the data points  in the figure are computed...}
+It means contributors are more likely to write a comment on an issue or a pull right after using it and before introducing a new dependency in their next version. 
+%{\color{red}TOM: It is impossible to intepret what is shown in Figure 3 due to lack of information. You do not explain what is shown on the y axis, and how the data points  in the figure are computed...}
 \begin{figure}[thb]
     \includegraphics[width=0.95\columnwidth]{Photos/RQ3.pdf} 
     \caption{Number of comments (broken down by comment type) before starting  to technically contribute to a package.}
