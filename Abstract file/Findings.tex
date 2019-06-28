@@ -1,12 +1,12 @@
-\section{PRELIMINARY ANALYSIS}
+%\section{PRELIMINARY ANALYSIS}
 
-To study the socio-technical congruence of Cargo, I started analysing its package dependency network and the associated technical and social activities of its contributors.
+To study the socio-technical congruence of Cargo, I am analysing its package dependency network and the associated technical and social activities of its contributors.
 %For this purpose I used Python notebooks and relied on existing data analytics and statistical libraries.
-Focusing on the research questions of Section~\ref{sec:intro}, I report some very preliminary analysis below.
-For now, the presented results are anecdotal and need to be complemented with proper statistical hypothesis testing, regression and survival analysis, and prediction modeling.
-
+%Focusing on the research questions of Section~\ref{sec:intro}, 
+I report some preliminary anecdotal results below. They need to be complemented with proper statistical hypothesis testing, regression and survival analysis, and prediction modeling.
 I started to investigate how the presence of commenting activity in a package repository relates to the introduction of dependency to that package.
-To do so, I considered all packages in which a new dependency was added at some point in time, and analysed whether commenting activity could be observed in the target package repository \emph{before} or \emph{after} depending on it. Figure~\ref{fig:fig1} summarises the results. One can observe that in more cases commenting activity started after depending on that package. 
+To do so, I considered all packages in which a new dependency was added,% at some point in time,
+and analysed whether commenting activity could be observed in the target package repository \emph{before} or \emph{after} depending on it. Figure~\ref{fig:fig1} summarises the results. One can observe that in more cases commenting activity started after depending on that package. 
 An important shift in behaviour can be observed since September 2016, where the number of packages with commenting activity before starting to depend on them is increasing and even exceeds in September 2017 the number of packages with commenting activity after starting to depend on them. Why this occurs remains an open question for now.
 
 \begin{figure}[thb]
