@@ -1,14 +1,14 @@
-\section{Data Extraction}
+\section{Data Extraction and Analysis} 
 
 The \textsf{libraries.io} monitoring service contains package metadata, including dependencies for 36 different package managers.
-Among these, I have selected the Cargo as a case study. It is the default package manager for %packages (a.k.a. ``crates") for 
-the Rust programming language. Cargo was created in 2014, and the development history of most of its packages is available on GitHub. 
+I have selected the Cargo package manager for the Rust programming language as a first case study. It was created in 2014, and most of its packages are developed on GitHub. 
 Cargo is growing fast in number of packages, package releases, dependencies and contributors~\cite{Decan2019EMSE}. 
 %By studying this package dependency network I hope to gain insights into how the ecosystem growth affects the socio-technical congruence over time and vice versa.
 
-I relied on a datadump of \textsf{libraries.io}~\cite{Katz2018} to recover the entire temporal evolution of the Cargo package dependency network. 
-For each package, I extracted metadata such as the package name, release number and release date, maintainer, package dependencies and their versioning constraints. 
-The dataset contained $+15K$ packages, $+66K$ package releases and $+48K$ package dependency relations.
+I used on a datadump of \textsf{libraries.io}~\cite{Katz2018} to extract the temporal evolution of Cargo's package dependency network. 
+For each package, I extracted %metadata such as
+ the package name, release number and date, maintainer, package dependencies and their versioning constraints. 
+The dataset contained $+15K$ packages, $+66K$ package releases and $+48K$ dependency relations.
 I retrieved the (optional) link to the corresponding development repositories and filtered out packages for which no GitHub repository was found (1,984 cases) %1984 = 1571 + 413 
 or that corresponded to duplicate repository links (3,500 cases).
  % I also found that 1571 of records contain no repository address, 413 of them have repository address other than GitHub and 3500 of them contains duplicate repository address.
