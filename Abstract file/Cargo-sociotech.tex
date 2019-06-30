@@ -1,7 +1,7 @@
 \include{preamble}
 
 
-\settopmatter{printacmref=true} % Removes citation information below abstract
+%\settopmatter{printacmref=false} % Removes citation information below abstract
 %\renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column
 
 %\settopmatter{printacmref=false} % Removes citation information below abstract
@@ -11,7 +11,7 @@
 \setcitestyle{square,sort,comma,numbers}
 \usepackage{amssymb}% http://ctan.org/pkg/amssymb
 \usepackage{pifont}% http://ctan.org/pkg/pifont
-\settopmatter{printacmref=false}
+\settopmatter{printacmref=true}
 
 \newcommand{\commentty}[1]{{\color{blue} \sf (TY: #1)}}
 \newcommand{\commentlh}[1]{{\color{red} \sf (LH: #1)}}
@@ -30,7 +30,7 @@
 \acmBooktitle{Proceedings of the 27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE '19), August 26--30, 2019, Tallinn, Estonia}\acmDOI{10.1145/3338906.3342497}
 \acmISBN{978-1-4503-5572-8/19/08}
 	
-\title{Analysing Socio-Technical Congruence in\\ the Package Dependency Network of Cargo}
+\title{Analysing Socio-Technical Congruence in the Package Dependency Network of Cargo}
 
 	\author{Mehdi Golzadeh}
 	\email{mehdi.golzadeh@umons.ac.be}
@@ -56,9 +56,57 @@ Software package distributions form large dependency networks maintained by larg
 I have started a longitudinal empirical study of Cargo's dependency network and the social (commenting) and technical (development) activities in Cargo's package repositories on GitHub, and present some preliminary findings.
 % I present some preliminary findings based on over a decade of historical data for nearly 10k Cargo packages and their associated GitHub repositories.
 \end{abstract}
+
+
+\begin{CCSXML}
+<ccs2012>
+	<concept>
+		<concept_id>10003120.10003130.10011762</concept_id>
+		<concept_desc>Human-centered computing~Empirical studies in collaborative and social computing</concept_desc>
+		<concept_significance>500</concept_significance>
+	</concept>
+	% <concept>
+	% 	<concept_id>10011007.10011006.10011072</concept_id>
+	% 	<concept_desc>Software and its engineering~Software libraries and repositories</concept_desc>
+	% 	<concept_significance>500</concept_significance>
+	% </concept>
+	% <concept>
+	% 	<concept_id>10011007.10011074.10011134</concept_id>
+	% 	<concept_desc>Software and its engineering~Collaboration in software development</concept_desc>
+	% 	<concept_significance>500</concept_significance>
+	% </concept>
+	% <concept>
+	% 	<concept_id>10011007.10011074.10011111.10011113</concept_id>
+	% 	<concept_desc>Software and its engineering~Software evolution</concept_desc>
+	% 	<concept_significance>500</concept_significance>
+	% </concept>
+	% <concept>
+	% 	<concept_id>10011007.10011074.10011081</concept_id>
+	% 	<concept_desc>Software and its engineering~Software development process management</concept_desc>
+	% 	<concept_significance>300</concept_significance>
+	% </concept>
+	% <concept>
+	% 	<concept_id>10002951.10003227.10003233.10003597</concept_id>
+	% 	<concept_desc>Information systems~Open source software</concept_desc>
+	% 	<concept_significance>300</concept_significance>
+	% </concept>
+</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Human-centered computing~Empirical studies in collaborative and social computing}
+%\ccsdesc[500]{Software and its engineering~Software libraries and repositories}
+%\ccsdesc[500]{Software and its engineering~Collaboration in software development}
+%\ccsdesc[500]{Software and its engineering~Software evolution}
+%\ccsdesc[300]{Software and its engineering~Software development process management}
+%\ccsdesc[300]{Information systems~Open source software}
 	
+\keywords{Socio-Technical congruence, Software ecosystem, Software repository mining, Software development, Package dependency network}
+% Empirical analysis
+% Open source software
+
+
+
 \maketitle
-	
 \input{Introduction.tex}
 \input{Related.tex}
 \input{Methodology.tex}
