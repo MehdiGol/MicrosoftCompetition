@@ -9,12 +9,14 @@ I used on a datadump of \textsf{libraries.io}~\cite{Katz2018} to extract the tem
 For each package, I extracted %metadata such as
  the package name, release number and date, maintainer, package dependencies and their versioning constraints. 
 The dataset contained $+15K$ packages, $+66K$ package releases and $+48K$ dependency relations.
-I retrieved the (optional) link to the corresponding development repositories and filtered out packages for which no GitHub repository was found (1,984 cases) %1984 = 1571 + 413 
-or that corresponded to duplicate repository links (3,500 cases).
+I retrieved the (optional) link to the corresponding development repositories. % and filtered out packages for which no GitHub repository was found (1,984 cases) %1984 = 1571 + 413 
+%or that corresponded to duplicate repository links (3,500 cases).
  % I also found that 1571 of records contain no repository address, 413 of them have repository address other than GitHub and 3500 of them contains duplicate repository address.
-I downloaded the relevant historical socio-technical data from the remaining 9,954 GitHub repositories.
+I downloaded the relevant historical socio-technical data from %the remaining 9,954 
+their GitHub repositories.
 %TO DO: Mention here how big is the libraries.io dataset you used (after filtering): how many packages; how many package releases; how may package dependencies; how many github repositories}
-This data includes all contributors and their role, the \emph{social} commenting activities they were involved in ($+904K$ comments separated into commit comments, pull request comments, pull request review comments and issue comments), and the \emph{technical} development activities they had conducted ($+942K$ commits, $+145K$ pull requests and $+266K$ issues).
+This data includes all contributors and their role, the \emph{social} commenting activities they were involved in ($+904K$ comments% separated into commit comments, pull request comments, pull request review comments and issue comments
+), and the \emph{technical} development activities they had conducted ($+942K$ commits, $+145K$ pull requests and $+266K$ issues).
 %The downloaded metadata was also fairly big including 942183 commits, 145053 pull requests, 266033 issues, 90228 unique comments-contributor.
 %It is worthwhile to mention that 
 3,170 repositories had no comments, and comments follow the Pareto rule ($80\%$ of all comments belong to $<20\%$ of all repositories).

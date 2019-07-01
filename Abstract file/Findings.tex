@@ -10,7 +10,7 @@ and analysed whether commenting activity could be observed in the target package
 An important shift in behaviour can be observed since September 2016, where the number of packages with commenting activity before starting to depend on them is increasing and even exceeds in September 2017 the number of packages with commenting activity after starting to depend on them. Why this occurs remains an open question for now.
 
 \begin{figure}[!bth]
-%\vspace{-0.3cm}
+\vspace{-0.3cm}
     \includegraphics[width=0.9\columnwidth]{Photos/RQ21.pdf} 
 \vspace{-0.3cm}
     \caption{Number of package repositories with first commenting activity \emph{before} or \emph{after} starting to depend on a package.}
@@ -18,19 +18,23 @@ An important shift in behaviour can be observed since September 2016, where the 
 \end{figure}
 
 \begin{figure}[!tbh]
-%\vspace{-0.3cm}
+\vspace{-0.3cm}
     \includegraphics[width=0.9\columnwidth]{Photos/RQ22.pdf} 
 \vspace{-0.3cm}
     \caption{Proportion of comment types made in the repositories of packages before starting to depend on that package.}
     \label{fig:fig2}
+    
 \end{figure}
+
 \begin{figure}[!tbh]
 \vspace{-0.3cm}
     \includegraphics[width=0.9\columnwidth]{Photos/RQ3.pdf} 
 \vspace{-0.3cm}
     \caption{Number of cases with comment activity (by comment type) before starting to technically contribute to a package.}
     \label{fig:fig3}
+\vspace{-0.2cm}
 \end{figure}
+
 
 In order to assess which types of comments (i.e., commit comments, issue comments, pull request comments or pull request review comments) are more likely to lead to the introduction of new package dependencies, I analysed their relative proportion in repositories prior to the addition of a dependency toward those packages. Figure~\ref{fig:fig2} presents these results. 
 Among the four types of comments, the proportion of comments on pull requests and issue requests is considerably higher than for commit comments and pull request review comments. I hypothesise that commenting on pull requests and issue requests for a package could serve as a good predictor for adding new dependencies to that package. More detailed statistical analyses are needed to confirm this hypothesis.
