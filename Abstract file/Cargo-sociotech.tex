@@ -1,11 +1,14 @@
-\include{preamble}
+\documentclass[sigconf,screen]{acmart}
 
+ \usepackage{expl3}
+ \expandafter\def\csname ver@l3regex.sty\endcsname{} 
+
+\usepackage{balance}
+\captionsetup[figure]{font=small}
 
 %\settopmatter{printacmref=false} % Removes citation information below abstract
 %\renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column
 
-%\settopmatter{printacmref=false} % Removes citation information below abstract
-%\renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column
 \pagestyle{plain}
 
 \setcitestyle{square,sort,comma,numbers}
@@ -19,16 +22,24 @@
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
 		T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
+
+%%% The following is specific to ESEC/FSE '19-SRC and the paper
+%%% 'Analysing Socio-Technical Congruence in the Package Dependency Network of Cargo'
+%%% by Mehdi Golzadeh.
+%%%
 \setcopyright{rightsretained}
+\copyrightyear{2019} 
+\acmYear{2019} 
+\acmPrice{}
+\acmConference[ESEC/FSE '19]{Proceedings of the 27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering}{August 26--30, 2019}{Tallinn, Estonia}
+\acmBooktitle{Proceedings of the 27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE '19), August 26--30, 2019, Tallinn, Estonia}
+\acmDOI{10.1145/3338906.3342497}
+\acmISBN{978-1-4503-5572-8/19/08}
 
 \begin{document}
 
 
-\copyrightyear{2019} 
-\acmYear{2019} 
-\acmConference[ESEC/FSE '19]{Proceedings of the 27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering}{August 26--30, 2019}{Tallinn, Estonia}
-\acmBooktitle{Proceedings of the 27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE '19), August 26--30, 2019, Tallinn, Estonia}\acmDOI{10.1145/3338906.3342497}
-\acmISBN{978-1-4503-5572-8/19/08}
+
 	
 \title{Analysing Socio-Technical Congruence in the Package Dependency Network of Cargo}
 
@@ -36,7 +47,8 @@
 	\orcid{0000-0003-1041-439X}
 	\affiliation{%
 	\institution{Software Engineering Lab, UMONS}
-	\city{Mons, Belgium}
+	\city{Mons}
+	\country{Belgium}
 	\postcode{7000}
 	}
 	\email{mehdi.golzadeh@umons.ac.be}
@@ -44,8 +56,6 @@
 	\newcommand*{\Scale}[2][4]{\scalebox{#1}{$#2$}}%
 	\newcommand{\Tool}{ComAir\xspace}
 	\newcommand{\ComBugs}{30\xspace}
-	%\newcommand{\Code}[1]{\lstinline{#1}}
-	%\newcommand{\comment}[1]{{}}
 	
 	
 	
@@ -117,7 +127,9 @@ I have started a longitudinal empirical study of Cargo's dependency network and 
 \textbf{Acknowledgement.} This research is supported by the joint FNRS / FWO Excellence of Science project 30446992 SECO-ASSIST.
 
 \newpage
+
 \bibliographystyle{ACM-Reference-Format}
+\balance
 \bibliography{biblio.bib}
 
 
